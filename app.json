@@ -1,15 +1,15 @@
 {
   "name": "suhail-md",
-  "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
+  "description": "I am 𝖬𝖾𝗌𝗁 Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/𝖬𝖾𝗌𝗁𝗄𝗂𝗉",
   "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "𝖬𝖾𝗌𝗁-𝖪𝖾", "SuhailMdWhatsaooBot", "SuhailWaBot","𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/suhail/",
   
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": " 𝖬𝖾𝗌𝗁 𝖪𝖾",
       "required" :true
     },   
      
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋"
     }, 
     "IMAGE": {
       "description": "Image for bot",
@@ -37,7 +37,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "𝖠𝖿𝗋𝗂𝖼𝖺/𝖭𝖺𝗂𝗋𝗈𝖻𝗂"
     },  
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
@@ -100,7 +100,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "254707541188"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
