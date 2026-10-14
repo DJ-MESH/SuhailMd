@@ -49,7 +49,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254707541188,254xxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "True"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,254xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254707541188,254xxxxxxxx";
@@ -64,12 +64,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋 』```", //*『sᴜʙsᴄʀɪʙᴇ • 𝖬𝖾𝗌𝗁 𝖯𝗋𝗂𝗇𝗍𝖾𝗋𝗌 & 𝖢𝗒𝖻𝖾𝗋』*\n youtube.com/𝖪𝗈𝖾𝖼𝗁𝗆𝖾𝗌𝗁"),
+  caption : process.env.CAPTION || "©𝗠𝗲𝘀𝗵 𝗞𝗘" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋 』```", //*『sᴜʙsᴄʀɪʙᴇ • 𝖬𝖾𝗌𝗁 𝖯𝗋𝗂𝗇𝗍𝖾𝗋𝗌 & 𝖢𝗒𝖻𝖾𝗋』*\n youtube.com/𝖪𝗈𝖾𝖼𝗁𝗆𝖾𝗌𝗁"),
  
   author : process.env.PACK_AUTHER|| "𝖬𝖾𝗌𝗁-𝖪𝖾",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || " 𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋",
-  ownername:process.env.OWNER_NAME|| " 𝖨𝗍'𝗌 𝖬𝖾𝗌𝗁",
+  botname : process.env.BOT_NAME  || "𝖬𝖾𝗌𝗁 𝖢𝗒𝖻𝖾𝗋",
+  ownername:process.env.OWNER_NAME|| "𝖬𝖾𝗌𝗁",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
